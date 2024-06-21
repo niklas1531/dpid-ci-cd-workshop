@@ -6,6 +6,10 @@ from flask import session as login_session
 
 import requests
 
+import os
+
+os.system('ls')
+
 app = Flask(__name__)
 app.debug = True
 app.secret_key = 'verysecretkey'
